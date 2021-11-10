@@ -1,20 +1,15 @@
-body{
-    background-color: rgb(235, 238, 235);
-    width: auto;
-    height: auto;
-    justify-content: space-evenly;
-    
-}
+
 .nav{
     display:inline-flex;
     float: inline-end;
     justify-content: space-evenly;
-    padding: 15px;
+    padding: 20px;
     align-content: space-between;
     line-height: 1px;
     margin: 15px;
     font-size: 20px;
     font-family: poppin;
+    gap: 100px;
 }
 .char{
     font-family: poppin;
@@ -47,6 +42,11 @@ section2>h2{
     text-decoration: burlywood;
 }
 section3>img{
+    float: right;
+    height: 400px;
+    width: 400px;
+}
+section4>div4{
     float: right;
     height: 400px;
     width: 400px;
