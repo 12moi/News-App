@@ -46,6 +46,11 @@ section3>img{
     height: 400px;
     width: 400px;
 }
+section4{
+    background-color: yellow;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 section4>div4{
     float: right;
     height: 400px;
