@@ -21,7 +21,7 @@
     height:600px;
     width: 300px;
 }
-.dp{
+*section2>dp{
     display: block;
     border: antiquewhite;
     margin-right: 16px;
@@ -41,17 +41,17 @@ section2>h2{
     align-content: center;
     text-decoration: burlywood;
 }
-section3>img{
+.section3>img{
     float: right;
     height: 400px;
     width: 400px;
 }
-section4{
+.section4{
     background-color: yellow;
     background-size: cover;
     background-repeat: no-repeat;
 }
-section4>div4{
+.section4>div4{
     float: right;
     height: 400px;
     width: 400px;
