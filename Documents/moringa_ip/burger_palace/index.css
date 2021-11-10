@@ -21,8 +21,8 @@
     height:600px;
     width: 300px;
 }
-*section2>dp{
-    display: block;
+.section2>dp{
+    display: -moz-inline-box;
     border: antiquewhite;
     margin-right: 16px;
     padding: 16px;
