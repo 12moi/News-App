@@ -32,10 +32,35 @@
     width: 200px;
 }
 .menu{
-    display: block;
-    justify-content: space-between;
     display: flex;
-    padding: 15px;
+    justify-content: center;
+    
+}
+.dp{
+    float: right;
+    width: 200px;
+    box-shadow: 3px 3px 4px 4px grey;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 5px;
+    
+}
+.menu span{
+    color: yellow;
+}
+.dp1{
+    float: right;
+    justify-self: center;
+    width: 200px;
+    box-shadow: 3px 3px 4px 4px grey;
+    padding: 20px;
+    margin: 100px;
+    
+}
+
+.dp1 h7{
+    font-size: 20px;
+    color: red;
 }
 section2>h2{
     align-content: center;
