@@ -119,6 +119,14 @@ form{
     float: right;
     
 }
+.black span{
+    color: yellow;
+
+}
+.black img{
+    float: right;
+    background-color: black;
+}
 .section3>img{
     float: right;
     height: 400px;
