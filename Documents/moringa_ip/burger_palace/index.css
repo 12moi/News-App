@@ -1,7 +1,18 @@
+.first_div{
+    background: linear-gradient(110deg,#fff 60%,#fdcd3b 60%);
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
 
+
+.logo{
+    display: inline;
+
+}
 .nav{
-    display:inline-flex;
-    float: inline-end;
+    display:flex;
+    float: right;
     justify-content: space-evenly;
     padding: 20px;
     align-content: space-between;
@@ -10,6 +21,9 @@
     font-size: 20px;
     font-family: poppin;
     gap: 100px;
+}
+.nav li{
+    list-style: none;
 }
 .char{
     font-family: poppin;
@@ -21,48 +35,82 @@
     height:600px;
     width: 300px;
 }
-.section2>dp{
-    display: -moz-inline-box;
-    border: antiquewhite;
-    margin-right: 16px;
-    padding: 16px;
-    border-radius: 12px;
+.header{
+    border: aqua;
 }
-.bb{
-    width: 200px;
+.container{
+    display:flex;
 }
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.container .dp1{
+    display: flex;
+    flex-wrap: wrap;
+
+} 
+
+}
+.menu .menulist{
+    
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid;
+    height: 250px;
+    border: 2px solid;
+    background-color: crimson;
+   
+
+}
+
 .menu{
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+   padding: 50px;
+
+
     
 }
-.dp{
-    float: right;
-    width: 200px;
+.menulist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} .menu .menulist li{
+   box-shadow: 0 30px 40px rgb(0,0,0,.1);
+    padding: 100px;
+    padding-bottom: 80px;
+    border-radius: 30px;
+    
+
+}
+.container li{
+    width: 250px;
+    height: 250px;
     box-shadow: 3px 3px 4px 4px grey;
-    padding: 20px;
+    padding: 50px;
     margin: 50px;
-    border-radius: 5px;
+    border-radius: 12px;
+    overflow: hidden;
     
 }
 .menu span{
     color: yellow;
 }
-.dp1{
-    float: right;
-    justify-self: center;
-    width: 200px;
-    box-shadow: 3px 3px 4px 4px grey;
-    padding: 20px;
-    margin: 100px;
+.container .dp{
+    display: flex;
+    justify-content: space-evenly;
     
 }
-
-.dp1 h7{
-    font-size: 20px;
-    color: red;
+li{
+    list-style: none;
 }
-section2>h2{
+
+
+
     align-content: center;
     text-decoration: burlywood;
 }
@@ -80,4 +128,6 @@ section2>h2{
     float: right;
     height: 400px;
     width: 400px;
+} h2{
+    text-align: center;
 }
