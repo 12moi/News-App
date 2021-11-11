@@ -108,11 +108,16 @@
 li{
     list-style: none;
 }
+.lg{
+    display: flex;
 
-
-
-    align-content: center;
-    text-decoration: burlywood;
+}
+.lg span{
+    color: brown;
+}
+form{
+    float: right;
+    
 }
 .section3>img{
     float: right;
