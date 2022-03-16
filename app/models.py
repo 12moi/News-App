@@ -9,6 +9,8 @@ class Article:
         self.title=title
         self.author=author
         self.description=description
+
+        
         self.urlToImage=urlToImage
         self.content=content
         self.publishedAt=publishedAt
