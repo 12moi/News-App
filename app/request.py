@@ -1,12 +1,8 @@
 
-
-# from sre_parse import CATEGORIES
 import urllib.request, json
 from flask.templating import render_template
-# from app.main.views import category
 from app.models import Article,Source
 import datetime,timeago
-
 
 api_key = None
 category_url = None
@@ -171,8 +167,6 @@ def search_topic(topic_name):
         search_topic_data = url.read()
         search_topic_response = json.loads(search_topic_data)
         search_topic_results = None
-        
-        
         if search_topic_response['articles']:
             search_topic_list = search_topic_response['articles']
             search_topic_results = process_headline_results((search_topic_list))
