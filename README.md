@@ -6,7 +6,6 @@ Moi Shadrack
 ## Description
 This is an application website which help people to get real time news without watching TVs. The website will show news Articles from several sources and news sources that can click to see more news. The website consumes news from news API
 
-
 ### User Story
 These are the behaviours/features that the application implements for use by a user.<br>
 
@@ -18,13 +17,11 @@ As a user I would like to:<br>
 4.See the image, description and time the news article was created<br>
 5.Click on an article and read it fully from the news source
 
-
 ### Setup / Installation requirement
 ##### Prerequisites
 python3.8 <br>
 pip <br>
 virtualenv
-
 
 #### Technology Used
 Python3.8 <br>
