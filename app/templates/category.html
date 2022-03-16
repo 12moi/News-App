@@ -1,0 +1,37 @@
+
+
+{% extends 'base.html'%}
+{% import 'macros.html' as macro%}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-4">
+            <div class="">
+                GET NEWS HERE
+            </div>
+            <div>
+                {{ macro.displayNewList(category) }}
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div>
+                YOUR LATEST NEWS ARE HERE
+            </div>
+            <div>
+                {{ macro.displayHeadlineList(category) }}
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div>
+                THE SOURCES ARE HERE
+            </div>
+            <div>
+                {{ macro.displaySources(sources) }}
+            </div>
+
+        </div>
+
+    </div>
+{% endblock %}
