@@ -1,0 +1,32 @@
+
+
+{% macro displayNewList(headline_list) %}
+
+{% for headline in headline_list %}
+
+<div>
+<li>
+    <br>
+    <div class="text">
+        <div class="img">
+            <a href="{{headline.url}}"><img style="height: 10rem;width: 35rem;" src="{{headline.urlToImage}}" alt="Image"></a>
+        </div>
+        <p>Description: {{headline.description}}</p>
+        <a href="{{headline.url}}"> {{headline.title}}</a>
+        
+        <p>Published : {{headline.publishedAt}}</p>
+    </div>
+        <a href="{{headline.url}}">{{headline.title}}</a></span></p>
+</div>
+{% endfor %}
+
+{% endmacro %}
+
+{% macro displaySources(source_list) %}
+
+{% for source in source_list %}
+    <li>
+        <a href="/article/{{source.id}}">{{ source.name }}</a>
+    </li>
+{% endfor %}
+{% endmacro %}
