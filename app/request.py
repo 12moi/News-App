@@ -61,6 +61,8 @@ def process_headline_results(headline_list):
         now = datetime.datetime.now() + datetime.timedelta(seconds = 60 * 3.4)
        
         
+
+        
         if urlToImage:
             if description:
                 if publishedAt:
