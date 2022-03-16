@@ -62,6 +62,30 @@ def process_headline_results(headline_list):
        
         
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
         if urlToImage:
             if description:
